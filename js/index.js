@@ -15,7 +15,7 @@ form.onsubmit = (e) => {
     } else if (Number(dia.value) < 13){
         nomeDia = 'que so quer curtir';
     } else if(Number(dia.value) < 16){
-        nomeDia = 'que partiu coracoes';
+        nomeDia = 'que partiu corações';
     } else if(Number(dia.value) < 19){
         nomeDia = 'que chega chegando';
     } else if(Number(dia.value) < 22){
