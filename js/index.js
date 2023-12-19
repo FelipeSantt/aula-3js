@@ -8,8 +8,14 @@ form.onsubmit = (e) => {
     let nomeDia = '';
     if(Number(dia.value) < 4){
         nomeDia = 'que tanto fez ou tanto faz'
-    }else if (Number(dia.value < 7)) {
+    } else if (Number(dia.value < 7)) {
         nomeDia = 'que desabou o barraco';
+    } else if (Number(dia.value) < 10) {
+        nomeDia = 'que largou o freio';
+    } else if (Number(dia.value) < 13){
+        nomeDia = 'que quer futicar';
+    } else{
+        nomeDia = 'que ninguem ama';
     }
     resultado.innerHTML = `Seu nome de pagodeiro é: ${nomeMes[mes.value]} ${nomeDia}`;
 }
