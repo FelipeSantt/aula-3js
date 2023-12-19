@@ -57,3 +57,26 @@ body {
 #container button:hover {
     background-color: rgb(13, 228, 228);
 }
+
+#audio {
+    margin-top: 25px;
+    align-items: center;
+}
+
+@media (max-width: 465px) {
+
+    body {
+        margin-left: 11%;
+        margin-top: 110px;
+    }
+
+    #container {
+       width: 100%;
+
+    }
+
+    #audio {
+        width: 100%;
+    }
+}
+
