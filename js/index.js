@@ -1,5 +1,5 @@
 
-let nomeMes = ['Rei','Mo','Cupido','Apaixonado','pagodeiro','Cara Perfeito','Mensageiro','Gueri Gueri','Coração','Linda Voz','Criado mudo'];
+let nomeMes = ['Rei','Mo','Cupido','Apaixonado','pagodeiro','Cara Perfeito','Mensageiro','Gueri Gueri','Coração','Linda Voz','Criado mudo','Cara Perfeito'];
 
 
 
@@ -13,8 +13,18 @@ form.onsubmit = (e) => {
     } else if (Number(dia.value) < 10) {
         nomeDia = 'que largou o freio';
     } else if (Number(dia.value) < 13){
-        nomeDia = 'que quer futicar';
-    } else{
+        nomeDia = 'que so quer curtir';
+    } else if(Number(dia.value) < 16){
+        nomeDia = 'que partiu coracoes';
+    } else if(Number(dia.value) < 19){
+        nomeDia = 'que chega chegando';
+    } else if(Number(dia.value) < 22){
+        nomeDia = 'que arrasa corações';
+    } else if(Number(dia.value) < 25){
+        nomeDia = 'que fugiu do pagode';
+    } else if(Number(dia.value) < 25){
+        nomeDia = 'que bota boneco';
+    } else {
         nomeDia = 'que ninguem ama';
     }
     resultado.innerHTML = `Seu nome de pagodeiro é: ${nomeMes[mes.value]} ${nomeDia}`;
