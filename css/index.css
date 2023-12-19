@@ -68,11 +68,17 @@ body {
     body {
         margin-left: 13%;
         margin-top: 110px;
+        overflow-x: hidden;
+        
     }
 
     #container {
        width: 100%;
 
+    }
+
+    #container h2 {
+        font-size: 17px;
     }
 
     #audio {
